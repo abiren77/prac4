@@ -1,0 +1,69 @@
+/*
+Birendra Acharya_s277155
+abiren77@gmail.com
+*/
+
+html{
+  		background-color: #EEEEEE;
+  		font-family: 'Open Sans', sans-serif;
+  	}
+
+  	body{
+  		max-width:800px;
+  		margin:0 auto;
+  	}
+
+  	.card{
+  		position: relative;
+  		-webkit-box-shadow: 1px 1px 5px 2px #DCDCDC;
+		box-shadow: 1px 1px 5px 2px #DCDCDC;
+  		min-width:368px;
+  		background-color: #FAFAFA;
+  		margin:2%;
+  		width:46%;
+  		float:left;
+  	}
+
+  	.card .cardImage{
+  		width:100%;
+  		height:auto;
+  	}
+
+  	.card .cardTitle{
+  		margin-bottom:20px;
+  		margin-top: 30px;
+  	}
+
+  	.card .cardContent{
+  		padding:0px 20px 20px;
+  	}
+
+  	.card .cardText{
+  		margin-top:10px;
+  		font-size:0.9em;
+  		line-height:1.5em;
+  	}
+
+  	.card .cardActionButton{
+  		position: absolute;
+  		top:212px;
+  		right:15px;
+        
+
+  	}
+    
+    .cardActionButton a:focus {
+        outline: none;
+    }
+
+    .cardActionButton a:focus img {
+        border: 5px solid #e2f000;
+    }
+
+
+  	.card .cardActionButton img{
+  		max-width:50px;
+  		margin-right: 5px;
+        border-radius: 50%;
+        outline: none;
+  	}
